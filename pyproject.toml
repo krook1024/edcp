@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "edcp"
+version = "0.1.0"
+description = "Parsing MSA15, EDC15 ECU files and more"
+authors = ["krook1024 <krook1024@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
